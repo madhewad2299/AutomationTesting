@@ -11,7 +11,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 public class Locators1 {
 
 	public static void main(String[] args) {
-		System.setProperty("webdriver.chrome.driver", "E:\\Testing\\chromedriver_win32\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "D:\\New folder (2)\\chromedriver_win32\\chromedriver.exe");
 		WebDriver driver= new ChromeDriver();
 		driver.get("http://automationpractice.com/index.php");
 		driver.manage().timeouts().implicitlyWait(3000, TimeUnit.MILLISECONDS);
@@ -32,7 +32,6 @@ public class Locators1 {
 		driver.findElement(By.name("submit_search")).click();
 //		driver.findElement(By.linkText("Printed Chiffon Dress")).click();
 		driver.findElement(By.partialLinkText("Chiffon Dress")).click();
-		driver.findElement(By.linkText("Printed Chiffon Dress")).click();
 		
 	}
 
