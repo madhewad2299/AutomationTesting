@@ -37,6 +37,20 @@ example:
 //span[@id='our_price_display' and text()='$16.40']
 //span[@id='our_price_display' or text()='$16.40']
 (//span)[last()]
+
+
+ //button[text()='Click for js Confirm']
+ //button[contains(text(),'Text in your webpage')]
+ 
+ --------------------------------------------------------------
+ confirm-code by MT
+ ---------------------------------------------------------------
+ //button[text()='Given button text we need to select']
+ //button[contains(text(),'Given button text we need to select')]
+
+
+ 
+ ---------------------------------------------------------------
  
  https://www.w3schools.com/xml/xml_xpath.asp
  https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Selectors
